@@ -1,0 +1,4 @@
+roslaunch rbx1_bringup fake_turtlebot.launch
+roslaunch rbx1_nav fake_amcl.launch map:=willow_garage_map.yaml
+rosrun rviz rviz -d `rospack find rbx1_nav`/amcl.rviz
+roslaunch fake_ultrasound all_ultrasound.launch

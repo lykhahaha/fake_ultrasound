@@ -1,0 +1,9 @@
+<!--
+  Used for testing "include launch function" in launch file.  
+  
+  It requires rplidar.launch.
+ -->
+<launch>
+  <include file="$(find fake_ultrasound)/launch/all_ultrasound.launch" />
+</launch>
+
